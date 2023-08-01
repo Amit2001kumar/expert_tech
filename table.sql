@@ -1,0 +1,9 @@
+
+CREATE TABLE employees (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  department VARCHAR(255) NOT NULL,
+  annual_salary DECIMAL(10, 2) NOT NULL,
+  deleted BOOLEAN DEFAULT false
+);
